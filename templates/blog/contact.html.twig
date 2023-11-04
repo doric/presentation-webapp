@@ -1,0 +1,128 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {% trans %}organisation.name{% endtrans %} {% trans %}organisation.shortdesc{% endtrans %} {% endblock %}
+{% block body %}
+    <div data-ix="fade-content-in" class="content-container">
+        <div class="section title-section wf-section">
+            <div class="container">
+                <div class="w-row">
+                    <div class="column w-col w-col-10">
+                        <h1 class="page-title">Conseil en stratégie et innovation</h1>
+                        <h5 class="page-subtitle">Notre vision globale et notre approche entrepreneuriale enrichissent<br>notre capacité à construire des propositions novatrices.</h5>
+                        <div class="separator"></div>
+                    </div>
+                    <div class="column w-col w-col-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section inner-section wf-section">
+            <div class="container">
+                <div class="columns-4 contact w-row">
+                    <div class="column w-col w-col-6 w-col-medium-6">
+                        <div class="contact-information">
+                            <div class="columns-7 w-row">
+                                <div class="w-col w-col-9">
+                                    <h4 class="heading-10">Abidjan</h4>
+                                </div>
+                                <div class="column-10 w-col w-col-3">
+                                    <div class="clock">
+                                        <div class="div-block-2 horizontal-clock">
+                                            <p id="abidjan" class="time right">08:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-methods">
+                                <div class="div-block-4">
+                                    <h6 class="heading-12 address">Immeuble Arc-en-Ciel, Blvd Lagunaire Plateau, <br>Abidjan</h6>
+                                    <a href="https://g.page/RWC-Plateau?share" target="_blank" class="pin">↗ </a>
+                                </div>
+                                <div class="div-block-3">
+                                    <h6 class="heading-11">email</h6>
+                                    <a href="mailto:contact@{% trans %}organisation.name{% endtrans %}digital.com?subject=Informations%20-%20{% trans %}organisation.name{% endtrans %}" class="phone no-margin">contact@{% trans %}organisation.name{% endtrans %}digital.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column w-col w-col-6 w-col-medium-6">
+                        <div class="contact-information">
+                            <div class="columns-8 w-row">
+                                <div class="w-col w-col-9">
+                                    <h4 class="heading-10">Paris</h4>
+                                </div>
+                                <div class="w-col w-col-3">
+                                    <div class="clock">
+                                        <div class="div-block-2 horizontal-clock">
+                                            <p id="paris" class="time right">08:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-methods">
+                                <div class="div-block-4">
+                                    <h6 class="heading-12 address">79 avenue Bosquet, 75007, <br>Paris</h6>
+                                    <a href="https://goo.gl/maps/3XkQytnv1Np8tHWT9" target="_blank" class="pin">↗ </a>
+                                </div>
+                                <div class="div-block-3">
+                                    <h6 class="heading-11">email</h6>
+                                    <a href="mailto:contact@{% trans %}organisation.name{% endtrans %}digital.com?subject=Informations%20-%20{% trans %}organisation.name{% endtrans %}" class="phone no-margin">contact@{% trans %}organisation.name{% endtrans %}digital.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section inner-section wf-section">
+            <div class="container">
+                <div class="column-fullwidth"></div>
+            </div>
+        </div>
+        <div class="w-clearfix wf-section">
+            <div class="footer-square right"></div>
+            <div class="footer-square"></div>
+            <div class="footer-two-third">
+                <h6 class="footer-third-heading">Côte d’Ivoire</h6>
+                <div class="footer-third-text">Résidence Green, <br>Rue Booker Washington, <br>Cocody Ambassades, Abidjan</div>
+            </div>
+            <div class="footer-one-third">
+                <h6 class="footer-third-heading">Senegal</h6>
+                <div class="footer-third-text">Plateau, Dakar</div>
+            </div>
+            <div class="footer-two-third">
+                <h6 class="footer-third-heading">France</h6>
+                <div class="footer-third-text">79 avenue Bosquet, <br>75007, Paris</div>
+            </div>
+        </div>
+    </div>
+    {% block other_scripts %}
+        <script src="{{ asset('javascript/jquery-3.5.1.slim.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('javascript/webflow.js') }}" type="text/javascript"></script>
+        <!-- [if lte IE 9]><script src="{{ asset('javascript/placeholders.min.js') }}"></script><![endif] -->
+        <link rel="alternate" hreflang="fr" href="index.html">
+        <link rel="alternate" hreflang="en" href="https://en.{% trans %}organisation.name{% endtrans %}digital.com/">
+        <script type="text/javascript" src="{{ asset('javascript/weglot.min.js') }}"></script>
+        <script>
+            Weglot.initialize({
+                api_key: 'wg_6470d5fea3d2ba0fda2f7a66401e0f9e0'
+            });
+        </script>
+        <script src="https://unpkg.com/spacetime"></script>
+        <!--  START: Mobile Autoplay Video  -->
+        <script>
+            var mobilevideo = document.getElementsByTagName("video")[0];
+            mobilevideo.setAttribute("playsinline", "");
+            mobilevideo.setAttribute("muted", "");
+        </script>
+        <!--  END: Mobile Autoplay Video  -->
+        <script src="{{ asset('javascript/jquery-3.5.1.slim.min.js') }}"></script>
+        <script>
+            $(document).ready(function(){
+                $(".link-list-item").mouseover(function() {
+                    var mission = $(this).attr("data-title");
+                    $("h5#titlemission").text(mission);
+                });
+            });
+        </script>
+    {% endblock %}
+{% endblock %}
