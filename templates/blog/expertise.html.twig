@@ -1,0 +1,135 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {% trans %}organisation.name{% endtrans %} {% trans %}organisation.shortdesc{% endtrans %} {% endblock %}
+{% block body %}
+    <div data-ix="fade-content-in" class="content-container">
+        <div class="section title-section wf-section">
+            <div class="container">
+                <div class="w-row">
+                    <div class="column w-col w-col-10">
+                        <h1 class="page-title">Nous accompagnons les entreprises, les bailleurs et <br>les startups dans leur démarche d’innovation, <br>de la définition stratégique <br>à la mise en œuvre opérationnelle.</h1>
+                        <div class="separator"></div>
+                    </div>
+                    <div class="column w-col w-col-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section inner-section wf-section">
+            <div class="container">
+                <div class="service strat black">
+                    <div class="columns-2 w-row">
+                        <div class="column expertise-title w-col w-col-7">
+                            <h4 class="heading-7 expertise-title">Conseil en stratégie</h4>
+                        </div>
+                        <div class="column expertise-detail w-col w-col-5">
+                            <p class="paragraph-2 expertise-subtitle black">- Etude de marché, benchmarks<br>- Construction de business plan<br>- Evolution du business model<br>- Définition du plan de transformation<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section inner-section white wf-section">
+            <div class="container">
+                <div class="service strat">
+                    <div class="columns-2 w-row">
+                        <div class="column expertise-title w-col w-col-6">
+                            <h4 class="heading-7 expertise-title">Conseil en stratégie</h4>
+                        </div>
+                        <div class="column expertise-detail w-col w-col-6">
+                            <p class="paragraph-2 expertise-subtitle">- Etude de marché, benchmarks<br>- Construction de business plan<br>- Evolution du business model<br>- Définition du plan de transformation<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section inner-section wf-section">
+            <div class="container">
+                <div class="service client black">
+                    <div class="columns-2 w-row">
+                        <div class="column expertise-title w-col w-col-7">
+                            <h4 class="heading-7 expertise-title">Expérience client &amp; innovation</h4>
+                        </div>
+                        <div class="column expertise-detail w-col w-col-5">
+                            <p class="paragraph-2 expertise-subtitle black">- Étude des besoins client <br>- Conception de produits / services par la <span>méthode du Design Thinking</span><br>- Plan marketing<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section inner-section wf-section">
+            <div class="container">
+                <div class="service culture black">
+                    <div class="columns-2 w-row">
+                        <div class="column expertise-title w-col w-col-7">
+                            <h4 class="heading-7 expertise-title">Culture et organisation</h4>
+                        </div>
+                        <div class="column expertise-detail w-col w-col-5">
+                            <p class="paragraph-2 expertise-subtitle black">- Optimisation des processus<br>- Conduite du changement<br>- Communication interne et externe<br>- Modules de formation<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section inner-section wf-section">
+            <div class="container">
+                <div class="service project black">
+                    <div class="columns-2 w-row">
+                        <div class="column expertise-title w-col w-col-7">
+                            <h4 class="heading-7 expertise-title">Gestion de projets</h4>
+                        </div>
+                        <div class="column expertise-detail w-col w-col-5">
+                            <p class="paragraph-2 expertise-subtitle black">- Organisation agile des équipes<br>- Plan d’actions / PMO<br>- Collaboration / intégration avec des startups<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section call-to-action wf-section">
+            <div class="container">
+                <div class="column-fullwidth">
+                    <div class="separator"></div>
+                    <h6 class="heading-4">Comment pouvons-nous vous aider ?</h6>
+                    <h3 class="heading-5 contact-prop">Contactez-nous</h3>
+                    <div class="columns-3 w-row">
+                        <div class="column-11 w-col w-col-7">
+                            <h5 class="heading-6">Notre équipe concentre le savoir-faire du conseil et du design et se tient à votre disposition pour répondre à toutes vos questions.</h5>
+                        </div>
+                        <div class="column-6 w-col w-col-5">
+                            <a href="/contact" data-ix="fade-content-out" class="button w-button">contactez-nous</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% block other_scripts %}
+        <script src="{{ asset('javascript/jquery-3.5.1.slim.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('javascript/webflow.js') }}" type="text/javascript"></script>
+        <!-- [if lte IE 9]><script src="{{ asset('javascript/placeholders.min.js') }}"></script><![endif] -->
+        <link rel="alternate" hreflang="fr" href="index.html">
+        <link rel="alternate" hreflang="en" href="https://en.{% trans %}organisation.name{% endtrans %}digital.com/">
+        <script type="text/javascript" src="{{ asset('javascript/weglot.min.js') }}"></script>
+        <script>
+            Weglot.initialize({
+                api_key: 'wg_6470d5fea3d2ba0fda2f7a66401e0f9e0'
+            });
+        </script>
+        <script src="https://unpkg.com/spacetime"></script>
+        <!--  START: Mobile Autoplay Video  -->
+        <script>
+            var mobilevideo = document.getElementsByTagName("video")[0];
+            mobilevideo.setAttribute("playsinline", "");
+            mobilevideo.setAttribute("muted", "");
+        </script>
+        <!--  END: Mobile Autoplay Video  -->
+        <script src="{{ asset('javascript/jquery-3.5.1.slim.min.js') }}" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $(".link-list-item").mouseover(function() {
+                    var mission = $(this).attr("data-title");
+                    $("h5#titlemission").text(mission);
+                });
+            });
+        </script>
+    {% endblock %}
+{% endblock %}

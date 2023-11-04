@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr-FR" target-language="fr-FR" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="organisation_shortdesc" resname="organisation.shortdesc">
+        <source>organisation.shortdesc</source>
+        <target>Conseils et services en informatique, achat et reventes de matériels informatiques et Formations.</target>
+      </trans-unit>
+      <trans-unit id="sectors_title" resname="sectors.title">
+        <source>sectors.title</source>
+        <target>Secteurs d'activité</target>
+      </trans-unit>
+      <trans-unit id="organisation_name" resname="organisation.name">
+        <source>organisation.name</source>
+        <target>2peco</target>
+      </trans-unit>
+      <trans-unit id="organisation_logo" resname="organisation.logo">
+        <source>organisation.logo</source>
+        <target>images/logo.png</target>
+      </trans-unit>
+      <trans-unit id="organisation_welcome_page_title" resname="organisation.welcome_page_title">
+        <source>organisation.welcome_page_title</source>
+        <target>Solutions informatiques intégrales : conseils, matériel, formations.</target>
+      </trans-unit>
+      <trans-unit id="organisation_welcome_page_subtitle" resname="organisation.welcome_page_subtitle">
+        <source>organisation.welcome_page_subtitle</source>
+        <target> est un cabinet de conseil reliant l’Afrique et l’Europe.</target>
+      </trans-unit>
+      <trans-unit id="organisation_meta_description" resname="organisation.meta.description">
+        <source>organisation.meta.description</source>
+        <target> est un cabinet de conseil reliant l’Afrique et l’Europe. Nous accompagnons les entreprises, les bailleurs et les startups dans leur démarche d’innovation, de la définition d’une stratégie à sa mise en œuvre.</target>
+      </trans-unit>
+      <trans-unit id="organisation_meta_title" resname="organisation.meta.title">
+        <source>organisation.meta.title</source>
+        <target> Conseil en stratégie et innovation</target>
+      </trans-unit>
+      <trans-unit id="organisation_main_experience" resname="organisation.main_experience">
+        <source>organisation.main_experience</source>
+        <target> excelle dans le domaine des solutions informatiques complètes</target>
+      </trans-unit>
+      <trans-unit id="organisation_linkedin_website" resname="organisation.linkedin_website">
+        <source>organisation.linkedin_website</source>
+        <target>https://www.linkedin.com/company/pecoconnect/</target>
+      </trans-unit>
+      <trans-unit id="organisation_main_experience_details" resname="organisation.main_experience_details">
+        <source>organisation.main_experience_details</source>
+        <target> 2peco, forte de son origine au sein de grands cabinets de conseil et d'institutions financières, bénéficie d'une profonde expérience en Afrique. Notre équipe est profondément engagée à accompagner la réussite de vos projets informatiques complets, couvrant conseils, équipements et formations, en tenant compte des particularités du contexte africain. Nous sommes là pour surmonter les défis spécifiques et atteindre vos objectifs avec succès.</target>
+      </trans-unit>
+      <trans-unit id="mission_detail" resname="mission.detail">
+        <source>mission.detail</source>
+        <target> Spécialistes en informatique et conseil, notre réussite passe par la collaboration et l'innovation.</target>
+      </trans-unit>
+      <trans-unit id="organisation_professional_approach" resname="organisation.professional_approach">
+        <source>organisation.professional_approach</source>
+        <target><![CDATA[
+Bienvenue chez 2Peco* ! Nous sommes une entreprise spécialisée dans les solutions informatiques, le conseil stratégique, la fourniture de matériel et la formation. Notre expertise couvre un large éventail de domaines, de la gestion de projet à la technologie de pointe.
+<br/>
+Mais notre engagement ne s'arrête pas là. Notre mission fondamentale en tant que cabinet de conseil indépendant est de vous aider à atteindre le succès dans chaque projet que vous nous confiez. Pour y parvenir, nous adoptons une approche collaborative. Nous ne sommes pas simplement des fournisseurs de services, mais des partenaires engagés dans votre réussite.
+<br/>
+Nous mettons l'accent sur l'excellence à chaque étape de notre travail. Cela signifie que nous nous efforçons de fournir des solutions de la plus haute qualité, en mettant en avant l'efficacité, la sécurité et la satisfaction du client.
+<br/>
+Et ce n'est pas tout. Nous sommes profondément attachés aux valeurs sociales et environnementales. Nous pensons que le succès des entreprises ne devrait pas se faire au détriment de la société ou de l'environnement. C'est pourquoi nous nous engageons à adopter des pratiques commerciales responsables et durables, en ligne avec vos propres valeurs.
+<br/>
+Chez 2Peco*, nous sommes déterminés à faire émerger des leaders dans le monde de l'informatique et de l'entrepreneuriat. Votre réussite est notre priorité absolue. Nous sommes prêts à travailler avec vous, à comprendre vos besoins uniques et à co-créer des solutions qui répondent précisément à vos attentes. Ensemble, nous visons l'innovation, l'efficacité et l'impact positif sur la société et l'environnement. Rejoignez-nous dans cette aventure vers un avenir connecté et prospère.
+        ]]></target>
+      </trans-unit>
+      <trans-unit id="organisation_sectors" resname="organisation.sectors">
+        <source>organisation.sectors</source>
+        <target>
+          [
+            {
+            "id": "banque",
+            "title": "Banque",
+            "description": "Le secteur bancaire englobe les institutions financières qui offrent des services de gestion de l'argent, de prêts, d'épargne et de paiement."
+            },
+            {
+            "id": "assurance",
+            "title": "Assurance",
+            "description": "L'industrie de l'assurance fournit une protection contre les risques en échange de paiements réguliers, couvrant divers domaines tels que l'assurance-vie, l'assurance automobile et l'assurance habitation."
+            },
+            {
+            "id": "telecommunications",
+            "title": "Technologies",
+            "description": "Les technologies englobent les entreprises et les infrastructures qui permettent la communication à distance, y compris les réseaux de téléphonie mobile, la connectivité Internet et les systèmes de communication."
+            },
+            {
+            "id": "distribution",
+            "title": "Distribution",
+            "description": "Le secteur de la distribution gère la chaîne d'approvisionnement, la vente au détail et la distribution de produits et de services aux consommateurs finaux."
+            },
+            {
+            "id": "agriculture",
+            "title": "Agriculture",
+            "description": "L'agriculture englobe la culture des plantes, l'élevage d'animaux et la production alimentaire, jouant un rôle essentiel dans la fourniture de nourriture et de matières premières."
+            },
+            {
+            "id": "secteur_public",
+            "title": "Secteur Public",
+            "description": "Le secteur public comprend les organismes gouvernementaux qui fournissent des services publics, tels que l'éducation, les soins de santé, la sécurité et la gestion des infrastructures."
+            },
+            {
+            "id": "organisations_multilaterales",
+            "title": "Organisations Multilatérales",
+            "description": "Les organisations multilatérales sont des entités internationales créées par plusieurs gouvernements pour coopérer sur des questions mondiales, telles que les Nations Unies (ONU) et l'Organisation mondiale du commerce (OMC)."
+            }
+          ]
+        </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
