@@ -25,6 +25,10 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+      <trans-unit id="project_management" resname="project_management">
+        <source>Project management</source>
+        <target>Gestion de projets</target>
+      </trans-unit>
       <trans-unit id="contact_us" resname="contact_us">
         <source>Contact us</source>
         <target>Contactez-nous</target>
