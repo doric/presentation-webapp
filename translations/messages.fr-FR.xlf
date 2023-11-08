@@ -25,6 +25,18 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+      <trans-unit id="customer_needs_study" resname="customer_needs_study">
+        <source>Study of customer needs</source>
+        <target>Étude des besoins client</target>
+      </trans-unit>
+      <trans-unit id="product_service_design" resname="product_service_design">
+        <source>Design of products / services by the method of Design Thinking</source>
+        <target>Conception de produits / services par la méthode du Design Thinking</target>
+      </trans-unit>
+      <trans-unit id="marketing_plan" resname="marketing_plan">
+        <source>Marketing plan</source>
+        <target>Plan marketing</target>
+      </trans-unit>
       <trans-unit id="project_management" resname="project_management">
         <source>Project management</source>
         <target>Gestion de projets</target>
