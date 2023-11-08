@@ -43,6 +43,16 @@
         <source>Plateau, Dakar</source>
         <target>Plateau, Dakar</target>
       </trans-unit>
+
+      <trans-unit id="france" resname="france">
+        <source>France</source>
+        <target>France</target>
+      </trans-unit>
+      <trans-unit id="address_paris" resname="address_paris">
+        <source>79 avenue Bosquet, 75007, Paris</source>
+        <target>79 avenue Bosquet, 75007, Paris</target>
+      </trans-unit>
+      
       <trans-unit id="organisation_logo" resname="organisation.logo">
         <source>organisation.logo</source>
         <target>images/logo.png</target>
