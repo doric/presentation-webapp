@@ -74,7 +74,10 @@
         <source>79 avenue Bosquet, 75007, Paris</source>
         <target>79 avenue Bosquet, 75007, Paris</target>
       </trans-unit>
-
+      <trans-unit id="page_title" resname="page_title">
+        <source>We accompany companies, lessors and startups in their innovation journey, from strategic definition to operational implementation.</source>
+        <target>Nous accompagnons les entreprises, les bailleurs et les startups dans leur démarche d’innovation, de la définition stratégique à la mise en œuvre opérationnelle.</target>
+      </trans-unit>
       <trans-unit id="organisation_logo" resname="organisation.logo">
         <source>organisation.logo</source>
         <target>images/logo.png</target>
