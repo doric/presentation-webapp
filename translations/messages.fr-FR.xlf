@@ -25,6 +25,10 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+      <trans-unit id="strategy_counsel" resname="strategy_counsel">
+        <source>Strategy Counsel</source>
+        <target>Conseil en stratégie</target>
+      </trans-unit>
       <trans-unit id="address_abidjan" resname="address_abidjan">
         <source>Immeuble Arc-en-Ciel, Blvd Lagunaire Plateau, Abidjan</source>
         <target>Arc-en-Ciel Building, Lagunaire Boulevard Plateau, Abidjan</target>
