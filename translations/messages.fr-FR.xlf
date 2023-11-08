@@ -25,7 +25,10 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
-
+      <trans-unit id="our_team" resname="our_team">
+        <source>Our team</source>
+        <target>Notre équipe</target>
+      </trans-unit>
       <trans-unit id="digital_insights_africa" resname="digital_insights_africa">
         <source>Insights and digital news in Africa</source>
         <target>Insights et actualités digitales en Afrique</target>
