@@ -33,6 +33,10 @@
         <source>Our team focuses on the expertise of consulting and design and is available to answer all your questions.</source>
         <target>Notre équipe concentre le savoir-faire du conseil et du design et se tient à votre disposition pour répondre à toutes vos questions.</target>
       </trans-unit>
+      <trans-unit id="help_us" resname="help_us">
+        <source>How can we help you?</source>
+        <target>Comment pouvons-nous vous aider ?</target>
+      </trans-unit>
       <trans-unit id="market_study_benchmarks" resname="market_study_benchmarks">
         <source>Market study, benchmarks</source>
         <target>Étude de marché, benchmarks</target>
