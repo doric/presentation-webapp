@@ -18,7 +18,14 @@
         <source> Our global vision and entrepreneurial approach enrich our ability to build innovative proposals</source>
         <target>Notre vision globale et notre approche entrepreneuriale enrichissent notre capacité à construire des propositions novatrices</target>
     </trans-unit>
-
+    <trans-unit id="cote_divoire" resname="cote_divoire">
+      <source>Côte d’Ivoire</source>
+      <target>Côte d’Ivoire</target>
+    </trans-unit>
+    <trans-unit id="address_abidjan" resname="address_abidjan">
+      <source>Résidence Green, Rue Booker Washington, Cocody Ambassades, Abidjan</source>
+      <target>Résidence Green, Rue Booker Washington, Cocody Ambassades, Abidjan</target>
+    </trans-unit>
       <trans-unit id="council_strategy_innovation"  resname="Council in strategy and innovation">
         <source> Council in strategy and innovation</source>
         <target>Conseil en stratégie et innovation</target>
@@ -52,7 +59,7 @@
         <source>79 avenue Bosquet, 75007, Paris</source>
         <target>79 avenue Bosquet, 75007, Paris</target>
       </trans-unit>
-      
+
       <trans-unit id="organisation_logo" resname="organisation.logo">
         <source>organisation.logo</source>
         <target>images/logo.png</target>
