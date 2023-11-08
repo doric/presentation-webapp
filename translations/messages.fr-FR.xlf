@@ -25,6 +25,19 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+
+      <trans-unit id="agile_team_organization" resname="agile_team_organization">
+        <source>Agile team organization</source>
+        <target>Organisation agile des équipes</target>
+      </trans-unit>
+      <trans-unit id="action_plan_pmo" resname="action_plan_pmo">
+        <source>Action plan / PMO</source>
+        <target>Plan d’actions / PMO</target>
+      </trans-unit>
+      <trans-unit id="collaboration_startup_integration" resname="collaboration_startup_integration">
+        <source>Collaboration / integration with startups</source>
+        <target>Collaboration / intégration avec des startups</target>
+      </trans-unit>
       <trans-unit id="market_study_benchmarks" resname="market_study_benchmarks">
         <source>Market study, benchmarks</source>
         <target>Etude de marché, benchmarks</target>
