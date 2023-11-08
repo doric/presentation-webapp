@@ -13,7 +13,10 @@
         <source>sectors.title</source>
         <target>Secteurs d'activité</target>
       </trans-unit>
-
+      <trans-unit id="email" resname="email">
+        <source>email</source>
+        <target>email</target>
+      </trans-unit>
       <trans-unit id="paris" resname="paris">
         <source>Paris</source>
         <target>Paris</target>
