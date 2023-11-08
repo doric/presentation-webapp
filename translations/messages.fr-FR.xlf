@@ -25,6 +25,10 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+      <trans-unit id="follow_us" resname="follow_us">
+        <source>Follow us</source>
+        <target>Nous suivre</target>
+      </trans-unit>
       <trans-unit id="refuse" resname="refuse">
         <source>Refuse</source>
         <target>Refuser</target>
