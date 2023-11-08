@@ -25,6 +25,10 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+      <trans-unit id="our_approach" resname="our_approach">
+        <source>Our approach</source>
+        <target>Notre approche</target>
+      </trans-unit>
       <trans-unit id="our_team" resname="our_team">
         <source>Our team</source>
         <target>Notre équipe</target>
