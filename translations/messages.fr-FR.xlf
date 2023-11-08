@@ -13,7 +13,10 @@
         <source>sectors.title</source>
         <target>Secteurs d'activité</target>
       </trans-unit>
-     
+      <trans-unit id="address_abidjan" resname="address_abidjan">
+        <source>Immeuble Arc-en-Ciel, Blvd Lagunaire Plateau, Abidjan</source>
+        <target>Arc-en-Ciel Building, Lagunaire Boulevard Plateau, Abidjan</target>
+      </trans-unit>
       <trans-unit id="global_vision_entrepreneurial_approach" resname="global_vision_entrepreneurial_approach">
         <source> Our global vision and entrepreneurial approach enrich our ability to build innovative proposals</source>
         <target>Notre vision globale et notre approche entrepreneuriale enrichissent notre capacité à construire des propositions novatrices</target>
