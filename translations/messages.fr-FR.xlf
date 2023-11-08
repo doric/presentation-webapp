@@ -31,7 +31,10 @@
         <source>organisation.Our recent news_title</source>
         <target>   Nos récentes actualités</target>
       </trans-unit>
-   
+      <trans-unit id="abidjan" resname="abidjan">
+        <source>Abidjan</source>
+        <target>Abidjan</target>
+      </trans-unit>
       <trans-unit id="organisation_logo" resname="organisation.logo">
         <source>organisation.logo</source>
         <target>images/logo.png</target>
