@@ -17,6 +17,10 @@
         <source>email</source>
         <target>email</target>
       </trans-unit>
+      <trans-unit id="address_paris" resname="address_paris">
+        <source>79 avenue Bosquet, 75007, Paris</source>
+        <target>79 avenue Bosquet, 75007, Paris</target>
+      </trans-unit>
       <trans-unit id="paris" resname="paris">
         <source>Paris</source>
         <target>Paris</target>
