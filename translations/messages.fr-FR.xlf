@@ -25,6 +25,15 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+
+      <trans-unit id="digital_insights_africa" resname="digital_insights_africa">
+        <source>Insights and digital news in Africa</source>
+        <target>Insights et actualités digitales en Afrique</target>
+      </trans-unit>
+      <trans-unit id="find_on_linkedin" resname="find_on_linkedin">
+        <source>Find on our LinkedIn page</source>
+        <target>à retrouver sur notre page LinkedIn</target>
+      </trans-unit>
       <trans-unit id="process_optimization" resname="process_optimization">
         <source>Process optimization</source>
         <target>Optimisation des processus</target>
