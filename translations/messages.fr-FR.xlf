@@ -25,6 +25,14 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+      <trans-unit id="refuse" resname="refuse">
+        <source>Refuse</source>
+        <target>Refuser</target>
+      </trans-unit>
+      <trans-unit id="accept" resname="accept">
+        <source>Accept</source>
+        <target>Accepter</target>
+      </trans-unit>
       <trans-unit id="our_approach" resname="our_approach">
         <source>Our approach</source>
         <target>Notre approche</target>
