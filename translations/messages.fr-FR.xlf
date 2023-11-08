@@ -25,7 +25,22 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
-
+      <trans-unit id="process_optimization" resname="process_optimization">
+        <source>Process optimization</source>
+        <target>Optimisation des processus</target>
+      </trans-unit>
+      <trans-unit id="change_management" resname="change_management">
+        <source>Change management</source>
+        <target>Conduite du changement</target>
+      </trans-unit>
+      <trans-unit id="internal_external_communication" resname="internal_external_communication">
+        <source>Internal / external communication</source>
+        <target>Communication interne et externe</target>
+      </trans-unit>
+      <trans-unit id="training_modules" resname="training_modules">
+        <source>Training modules</source>
+        <target>Modules de formation</target>
+      </trans-unit>
       <trans-unit id="agile_team_organization" resname="agile_team_organization">
         <source>Agile team organization</source>
         <target>Organisation agile des équipes</target>
