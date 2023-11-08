@@ -25,6 +25,22 @@
         <source>Paris</source>
         <target>Paris</target>
       </trans-unit>
+      <trans-unit id="market_study_benchmarks" resname="market_study_benchmarks">
+        <source>Market study, benchmarks</source>
+        <target>Etude de marché, benchmarks</target>
+      </trans-unit>
+      <trans-unit id="business_plan_construction" resname="business_plan_construction">
+        <source>Construction of business plan</source>
+        <target>Construction de business plan</target>
+      </trans-unit>
+      <trans-unit id="business_model_evolution" resname="business_model_evolution">
+        <source>Evolution of business model</source>
+        <target>Evolution du business model</target>
+      </trans-unit>
+      <trans-unit id="transformation_plan_definition" resname="transformation_plan_definition">
+        <source>Definition of transformation plan</source>
+        <target>Définition du plan de transformation</target>
+      </trans-unit>
       <trans-unit id="customer_needs_study" resname="customer_needs_study">
         <source>Study of customer needs</source>
         <target>Étude des besoins client</target>
