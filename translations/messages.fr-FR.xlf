@@ -29,6 +29,10 @@
         <source>Project management</source>
         <target>Gestion de projets</target>
       </trans-unit>
+      <trans-unit id="customer_experience_innovation" resname="customer_experience_innovation">
+        <source>Customer experience &amp; innovation</source>
+        <target>Expérience client &amp; innovation</target>
+      </trans-unit>
       <trans-unit id="contact_us" resname="contact_us">
         <source>Contact us</source>
         <target>Contactez-nous</target>
