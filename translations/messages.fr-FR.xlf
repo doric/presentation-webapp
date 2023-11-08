@@ -35,6 +35,14 @@
         <source>Abidjan</source>
         <target>Abidjan</target>
       </trans-unit>
+      <trans-unit id="senegal" resname="senegal">
+        <source>Senegal</source>
+        <target>Senegal</target>
+      </trans-unit>
+      <trans-unit id="plateau_dakar" resname="plateau_dakar">
+        <source>Plateau, Dakar</source>
+        <target>Plateau, Dakar</target>
+      </trans-unit>
       <trans-unit id="organisation_logo" resname="organisation.logo">
         <source>organisation.logo</source>
         <target>images/logo.png</target>
