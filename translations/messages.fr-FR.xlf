@@ -13,8 +13,11 @@
         <source>sectors.title</source>
         <target>Secteurs d'activité</target>
       </trans-unit>
-
-    //council_strategy_innovation
+     
+      <trans-unit id="global_vision_entrepreneurial_approach" resname="global_vision_entrepreneurial_approach">
+        <source> Our global vision and entrepreneurial approach enrich our ability to build innovative proposals</source>
+        <target>Notre vision globale et notre approche entrepreneuriale enrichissent notre capacité à construire des propositions novatrices</target>
+    </trans-unit>
 
       <trans-unit id="council_strategy_innovation"  resname="Council in strategy and innovation">
         <source> Council in strategy and innovation</source>
