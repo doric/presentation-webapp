@@ -13,6 +13,11 @@
         <source>sectors.title</source>
         <target>Secteurs d'activité</target>
       </trans-unit>
+
+      <trans-unit id="paris" resname="paris">
+        <source>Paris</source>
+        <target>Paris</target>
+      </trans-unit>
       <trans-unit id="address_abidjan" resname="address_abidjan">
         <source>Immeuble Arc-en-Ciel, Blvd Lagunaire Plateau, Abidjan</source>
         <target>Arc-en-Ciel Building, Lagunaire Boulevard Plateau, Abidjan</target>
