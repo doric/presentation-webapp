@@ -25,6 +25,10 @@
         <source>organisation.welcome_page_title</source>
         <target>Solutions informatiques intégrales : conseils, matériel, formations.</target>
       </trans-unit>
+      <trans-unit id="organisation_mission_title" resname="organisation.mission_title">
+        <source>organisation.misssion_title</source>
+        <target>Défis et opportunités traités pour nos clients :</target>
+      </trans-unit>
       <trans-unit id="organisation_welcome_page_subtitle" resname="organisation.welcome_page_subtitle">
         <source>organisation.welcome_page_subtitle</source>
         <target> est un cabinet de conseil reliant l’Afrique et l’Europe.</target>
