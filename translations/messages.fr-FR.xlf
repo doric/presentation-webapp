@@ -13,13 +13,18 @@
         <source>sectors.title</source>
         <target>Secteurs d'activité</target>
       </trans-unit>
-    
-    
+
+    //council_strategy_innovation
+
+      <trans-unit id="council_strategy_innovation"  resname="Council in strategy and innovation">
+        <source> Council in strategy and innovation</source>
+        <target>Conseil en stratégie et innovation</target>
+    </trans-unit>
       <trans-unit id="organisation_name" resname="organisation.name">
         <source>organisation.name</source>
         <target>2peco</target>
       </trans-unit>
-      <trans-unit id="organisation.Our recent news_title" resname="organisation.Our recent news_title">
+      <trans-unit id="organisation_Our recent news_title" resname="organisation.Our recent news_title">
         <source>organisation.Our recent news_title</source>
         <target>   Nos récentes actualités</target>
       </trans-unit>
