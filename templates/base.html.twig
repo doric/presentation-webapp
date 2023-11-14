@@ -72,9 +72,9 @@
                                 </div>
                                 <nav role="navigation" class="nav-menu w-nav-menu">
                                     <a href="/" data-ix="fade-content-out" aria-current="page" class="navbar-link w-nav-link w--current">Accueil</a>
-                                    <a href="/expertises" class="navbar-link w-nav-link">Expertises</a>
-                                    <a href="/team" data-ix="fade-content-out" class="navbar-link w-nav-link">Équipe</a>
-                                    <a href="/contact" data-ix="fade-content-out" class="navbar-link w-nav-link">Contact</a>
+                                    <a href="/expertises" class="navbar-link w-nav-link">{% trans %}expertises{% endtrans %}</a>
+                                    <a href="/team" data-ix="fade-content-out" class="navbar-link w-nav-link">{% trans %}team{% endtrans %}</a>
+                                    <a href="/contact" data-ix="fade-content-out" class="navbar-link w-nav-link">{% trans %}contact{% endtrans %}</a>
                                     <div class="navbar-link language-container">
                                         <a href="http://change-language.weglot.com/fr" data-ix="fade-content-out" class="navbar-link lang w-nav-link">FR</a>
                                         <a href="/contact" data-ix="fade-content-out" class="navbar-link lang line w-nav-link">|</a>
@@ -97,21 +97,22 @@
                     <div class="container">
                         <div class="footer-content">
                             <a href="/" data-ix="fade-content-out" aria-current="page" class="footer-logo w-inline-block w--current"><img src="{% trans %}organisation.logo{% endtrans %}" alt="" class="logo"></a>
-                            <div class="footer-tagline">Conseil en stratégie et innovation</div>
+                            <div class="footer-tagline">{% trans %}council_strategy_innovation{% endtrans %}</div>
                             <div class="spaccing-bottom">
                                 <ul role="list" class="link-list footer-navbar">
                                     <li class="link-list-item footer-link-list-item">
-                                        <a href="/expertises" data-ix="fade-content-out" class="navbar-link footer-navbar-link">Expertises</a>
-                                    </li>
-                                    <li class="link-list-item footer-link-list-item">
-                                        <a href="/team" data-ix="fade-content-out" class="navbar-link footer-navbar-link">Équipe</a>
-                                    </li>
-                                    <li class="link-list-item footer-link-list-item">
-                                        <a href="/contact" data-ix="fade-content-out" class="navbar-link footer-navbar-link">contact</a>
-                                    </li>
-                                    <li class="link-list-item footer-link-list-item">
-                                        <a href="/legal" data-ix="fade-content-out" class="navbar-link footer-navbar-link">Mentions lÉgales</a>
-                                    </li>
+                                        <a href="/expertises" data-ix="fade-content-out" class="navbar-link footer-navbar-link">{% trans %}expertises{% endtrans %}</a>
+                                      </li>
+                                      <li class="link-list-item footer-link-list-item">
+                                        <a href="/team" data-ix="fade-content-out" class="navbar-link footer-navbar-link">{% trans %}team{% endtrans %}</a>
+                                      </li>
+                                      <li class="link-list-item footer-link-list-item">
+                                        <a href="/contact" data-ix="fade-content-out" class="navbar-link footer-navbar-link">{% trans %}contact{% endtrans %}</a>
+                                      </li>
+                                      <li class="link-list-item footer-link-list-item">
+                                        <a href="/legal" data-ix="fade-content-out" class="navbar-link footer-navbar-link">{% trans %}legal_mentions{% endtrans %}</a>
+                                      </li>
+                                    
                                 </ul>
                                 <div>
                                     <h6 class="footer-third-heading social-link">{% trans %}follow_us{% endtrans %}</h6>
@@ -126,16 +127,18 @@
                         </div>
                     </div>
                     <div class="footer-two-third">
-                        <h6 class="footer-third-heading">Côte d’Ivoire</h6>
-                        <div class="footer-third-text">Résidence Green, <br>Rue Booker Washington, <br>Cocody Ambassades, Abidjan</div>
+                        <h6 class="footer-third-heading">{% trans %}cote_divoire{% endtrans %}</h6>
+                         <div class="footer-third-text">{% trans %}residence_green_address{% endtrans %}</div>
+
                     </div>
                     <div class="footer-one-third">
-                        <h6 class="footer-third-heading">Senegal</h6>
-                        <div class="footer-third-text">Plateau, Dakar</div>
+                        <h6 class="footer-third-heading">{% trans %}senegal{% endtrans %}</h6>
+                        <div class="footer-third-text">{% trans %}plateau_dakar{% endtrans %}</div>
                     </div>
                     <div class="footer-two-third">
-                        <h6 class="footer-third-heading">France</h6>
-                        <div class="footer-third-text">79 avenue Bosquet, <br>75007, Paris</div>
+                        <h6 class="footer-third-heading">{% trans %}france{% endtrans %}</h6>
+                        <div class="footer-third-text">{% trans %}avenue_bosquet_address{% endtrans %}<br>{% trans %}postal_code_and_city{% endtrans %}</div>
+
                     </div>
                 </div>
                 {% endblock %}
@@ -143,7 +146,8 @@
             <div fs-cc="banner" class="cookie">
                 <div class="card-cookie">
                     <div class="heading-large">{% trans %}organisation.name{% endtrans %} respecte votre vie privée.</div>
-                    <p class="paragraph-modal">Avec votre accord, nous utilisons des cookies ou technologies similaires pour stocker et accéder à des informations personnelles comme votre visite sur ce site. Vous pouvez retirer votre consentement ou vous opposer aux traitements basés sur l&#x27;intérêt légitime à tout moment en consultant notre politique de confidentialité sur ce site.<br></p>
+                    <p class="paragraph-modal">{% trans %}with_your_consent{% endtrans %}<br>{% trans %}use_cookies_technologies{% endtrans %}<br>{% trans %}store_access_information{% endtrans %}<br>{% trans %}retire_consent_oppose_at_any_time{% endtrans %}<br>{% trans %}check_privacy_policy_on_site{% endtrans %}</p>
+
                     <div class="modal-button-wrapper">
                         <a fs-cc="deny" href="#" class="button-round-light-blue w-button">{% trans %}refuse{% endtrans %}</a>
                         <a fs-cc="allow" href="#" class="button-round-blue w-button">{% trans %}accept{% endtrans %}</a>

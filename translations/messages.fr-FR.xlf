@@ -37,6 +37,23 @@
         <source>Accept</source>
         <target>Accepter</target>
       </trans-unit>
+
+      <trans-unit id="expertises" resname="expertises">
+        <source>Expertises</source>
+        <target>Expertises</target>
+      </trans-unit>
+      <trans-unit id="team" resname="team">
+        <source>Team</source>
+        <target>Équipe</target>
+      </trans-unit>
+      <trans-unit id="contact" resname="contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="legal_mentions" resname="legal_mentions">
+        <source>Legal Mentions</source>
+        <target>Mentions lÉgales</target>
+      </trans-unit>
       <trans-unit id="our_approach" resname="our_approach">
         <source>Our approach</source>
         <target>Notre approche</target>
@@ -121,6 +138,40 @@
         <source>Customer experience &amp; innovation</source>
         <target>Expérience client &amp; innovation</target>
       </trans-unit>
+      <trans-unit id="associate_change_leadership" resname="associate_change_leadership">
+       <source>Associate</source>
+       <target>Associée</target>
+      </trans-unit>
+      <trans-unit id="change_management" resname="change_management">
+       <source>Change Leadership</source>
+       <target>Conduite du changement</target>
+      </trans-unit>
+      <trans-unit id="director" resname="director">
+       <source>Director</source>
+       <target>Directeur</target>
+      </trans-unit>
+      <trans-unit id="operations_and_processes" resname="operations_and_processes">
+       <source>Operations and Processes</source>
+       <target>Opérations et processus</target>
+      </trans-unit>
+      <trans-unit id="expert" resname="expert">
+       <source>Expert</source>
+       <target>Expert</target>
+      </trans-unit>
+      <trans-unit id="digital_strategy_and_service_design" resname="digital_strategy_and_service_design">
+       <source>Digital Strategy and Service Design</source>
+       <target>Stratégie digitale et design de services</target>
+      </trans-unit>
+      <trans-unit id="morgane_roth" resname="morgane_roth">
+       <source>Morgane Roth</source>
+       <target>Morgane Roth</target>
+      </trans-unit>
+
+      <trans-unit id="our_experts_knowledge" resname="our_experts_knowledge">
+       <source>Our experts have extensive knowledge of the challenges <br>of African and European markets in key sectors <br>that drive the continent's growth.</source>
+       <target>Nos experts disposent d’une large connaissance des enjeux <br>des marchés africains et européens dans les secteurs clés <br>qui portent la croissance du continent.</target>
+      </trans-unit>
+
       <trans-unit id="contact_us" resname="contact_us">
         <source>Contact us</source>
         <target>Contactez-nous</target>
@@ -129,10 +180,57 @@
         <source>Strategy Counsel</source>
         <target>Conseil en stratégie</target>
       </trans-unit>
-      <trans-unit id="our_team" resname="our_team">
+      <trans-unit id="avenue_bosquet_address" resname="avenue_bosquet_address">
+        <source>79 avenue Bosquet,</source>
+        <target>79 avenue Bosquet,</target>
+      </trans-unit>
+      <trans-unit id="postal_code_and_city" resname="postal_code_and_city">
+        <source>75007, Paris</source>
+        <target>75007, Paris</target>
+      </trans-unit>
+      <trans-unit id="with_your_consent" resname="with_your_consent">
+        <source>With your consent</source>
+        <target>Avec votre accord</target>
+      </trans-unit>
+      <trans-unit id="use_cookies_technologies" resname="use_cookies_technologies">
+        <source>We use cookies or similar technologies</source>
+        <target>Nous utilisons des cookies ou technologies similaires</target>
+      </trans-unit>
+      <trans-unit id="store_access_information" resname="store_access_information">
+        <source>to store and access personal information such as your visit to this site</source>
+        <target>pour stocker et accéder à des informations personnelles comme votre visite sur ce site</target>
+      </trans-unit>
+      <trans-unit id="retire_consent_oppose_at_any_time" resname="retire_consent_oppose_at_any_time">
+        <source>You can withdraw your consent or object to processing based on legitimate interest at any time</source>
+        <target>Vous pouvez retirer votre consentement ou vous opposer aux traitements basés sur l&#x27;intérêt légitime à tout moment</target>
+      </trans-unit>
+      <trans-unit id="check_privacy_policy_on_site" resname="check_privacy_policy_on_site">
+        <source>by consulting our privacy policy on this site</source>
+        <target>en consultant notre politique de confidentialité sur ce site</target>
+      </trans-unit>
+
+      <trans-unit id="jerome_vincent_name" resname="jerome_vincent_name">
+        <source>Jerome Vincent</source>
+        <target>Jerome Vincent</target>
+      </trans-unit>
+      <trans-unit id="associate" resname="associate">
+        <source>Associé</source>
+        <target>Associé</target>
+      </trans-unit>
+      <trans-unit id="managing_partner" resname="managing_partner">
+        <source>Managing Partner</source>
+        <target>Managing Partner</target>
+      </trans-unit>
+      <trans-unit id="learn_more" resname="learn_more">
+        <source>EN savoir plus</source>
+        <target>EN savoir plus</target>
+      </trans-unit>
+      <trans-unit id="our_team_expertise" resname="our_team_expertise">
         <source>Our team focuses on the expertise of consulting and design and is available to answer all your questions.</source>
         <target>Notre équipe concentre le savoir-faire du conseil et du design et se tient à votre disposition pour répondre à toutes vos questions.</target>
       </trans-unit>
+
+
       <trans-unit id="help_us" resname="help_us">
         <source>How can we help you?</source>
         <target>Comment pouvons-nous vous aider ?</target>
@@ -140,6 +238,10 @@
       <trans-unit id="market_study_benchmarks" resname="market_study_benchmarks">
         <source>Market study, benchmarks</source>
         <target>Étude de marché, benchmarks</target>
+      </trans-unit>
+      <trans-unit id="residence_green_address" resname="residence_green_address">
+        <source>Résidence Green, Rue Booker Washington, Cocody Ambassades, Abidjan</source>
+        <target>Résidence Green, Rue Booker Washington, Cocody Ambassades, Abidjan</target>
       </trans-unit>
       <trans-unit id="business_plan_construction" resname="business_plan_construction">
         <source>Construction of business plan</source>
